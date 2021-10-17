@@ -1,0 +1,81 @@
+databaseChangeLog:
+  - changeSet:
+      id: 20201012_init.sql
+      author: Marcin Panuś
+      sqlFile:
+        relativeToChangelogFile: true
+        stripComments: true
+        splitStatements: false
+        path: db.changelog/20201012_init.sql
+  - changeSet:
+      id: 20201201_add_users
+      author: Marcin Panuś
+      sqlFile:
+        relativeToChangelogFile: true
+        stripComments: true
+        splitStatements: false
+        path: db.changelog/20201201_add_users.sql
+  - changeSet:
+      id: 20201210_drop_table
+      author: Marcin Panuś
+      sqlFile:
+        relativeToChangelogFile: true
+        stripComments: true
+        splitStatements: false
+        path: db.changelog/20201210_drop_table.sql
+  - changeSet:
+      id: 20201210_add_users
+      author: Marcin Panuś
+      sqlFile:
+        relativeToChangelogFile: true
+        stripComments: true
+        splitStatements: false
+        path: db.changelog/20201210_add_users.sql
+  - changeSet:
+      id: 20201210_add_authorities
+      author: Marcin Panuś
+      sqlFile:
+        relativeToChangelogFile: true
+        stripComments: true
+        splitStatements: false
+        path: db.changelog/20201210_add_authorities.sql
+  - changeSet:
+      id: 20210101_auction_table
+      author: Marcin Panuś
+      sqlFile:
+        relativeToChangelogFile: true
+        stripComments: true
+        splitStatements: false
+        path: db.changelog/20210101_auction_table.sql
+  - changeSet:
+      id: 20210118_drop_table
+      author: Marcin Panuś
+      sqlFile:
+        relativeToChangelogFile: true
+        stripComments: true
+        splitStatements: false
+        path: db.changelog/20210118_drop_table.sql
+  - changeSet:
+      id: 20210118_new_auction_table
+      author: Marcin Panuś
+      sqlFile:
+        relativeToChangelogFile: true
+        stripComments: true
+        splitStatements: false
+        path: db.changelog/20210118_new_auction_table.sql
+  - changeSet:
+      id: 20210123_auction_parameter_table
+      author: Marcin Panuś
+      sqlFile:
+        relativeToChangelogFile: true
+        stripComments: true
+        splitStatements: false
+        path: db.changelog/20210123_auction_parameter_table.sql
+  - changeSet:
+      id: 20210125_view_table
+      author: Marcin Panuś
+      sqlFile:
+        relativeToChangelogFile: true
+        stripComments: true
+        splitStatements: false
+        path: db.changelog/20210125_view_table.sql
